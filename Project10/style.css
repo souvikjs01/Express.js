@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 730px;
+}
+.topsection{
+    height: 150px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.topsection h1{
+    font-size: 50px;
+}
+.topsection p{
+    display: inline-block;
+    background-color: blue;
+}
+.midsection{
+    display: flex;
+    height: 300px;
+}
+.midsection img{
+    height: 300px;
+    padding-left: 50px;
+}
+.midsection h3{
+    align-self: center;
+    font-size: 40px;
+    font-style: italic;
+    padding: 0 0 0 60px;
+}
+.endsection{
+    height: 280px;
+    background-color: black;
+    font-family: Times, serif;
+}
+.endsection h2{
+    color: white;
+    padding: 20px 0 20px 300px;
+    font-size: 50px;
+}
+.endsection p{
+    color: white;
+    line-height: 1.4;
+    padding: 0 300px 0 300px;
+}
+.endsection hr{
+    margin-top: 20px;
+}
